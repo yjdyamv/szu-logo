@@ -2,12 +2,9 @@
 #set text(size: 12pt, font: "Arial")
 
 #let color-example(color) = {
-  stack(dir: ltr, spacing: 15pt, rect(width: 20pt, height: 20pt, fill: color), text(repr(color), fill: color))
+  stack(dir: ltr, spacing: 15pt, rect(width: 20pt, height: 20pt, fill: color),
+  text(repr(color), fill: color))
 }
-
-// #color-example(rgb(255, 0, 0))
-// #color-example(cmyk(27%, 100%, 100%, 0%))
-// #color-example(rgb(0, 0, 255))
 
 网页标准色：
 
